@@ -2,16 +2,12 @@
 ls
 pwd
 echo "Welcome!"
-clang TastOne.cpp
-clang TastTwo.cpp
-clang TastThree.cpp
-clang TastFour.cpp
 clang --version
-
-name="lev"
-age=13
-surname="shein"
-
+name="unknown"
+age=0
+surname="unknown"
+username="LEVELONCODER"
 echo $name
 echo $surname
 echo $age
+echo $username
