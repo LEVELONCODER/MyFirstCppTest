@@ -6,7 +6,7 @@ int myfunc() {
     int x, y;
     cout<<"Введите N: "; cin>>x;
     cout<<endl;
-    cout<<"Введите степень K: "; cin>>y;
+    cout<<"Введите степень K: "<<endl; cin>>y;
     int result = pow(x, y);
     cout<<"Сумма: "<<result<<endl;
 }
